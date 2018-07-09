@@ -1,0 +1,226 @@
+body {
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 500;
+    /* font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif; */
+    color: #333745;
+    font-family: 'Acme', sans-serif;
+}
+
+.MainArea{
+    min-height: 90vh;
+}
+
+
+canvas{
+    height: 10vh;
+}
+/* Nav Bar Style Starts */
+
+.navBar {
+    background-color: #292d39;
+    color: white;
+
+}
+
+.nav-logo {
+    margin: 10px;
+    margin-left:10em;
+}
+
+.nav-logo span {
+    color: #444f72;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.nav-logo h1 {
+    /* font-family: 'Acme', sans-serif; */
+    color: #ED5276;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 0px;
+}
+
+.nav-logo h2 {
+    font-size: 1rem;
+    font-weight: 000;
+    margin: 0px;
+}
+
+.nav-menu {
+    font-size: 1rem;
+}
+
+.page-list {
+    margin-right: 5em;
+    text-align: center;
+}
+
+.page{
+    min-width: 110px;
+    padding: .8rem;
+}
+.page p {
+    margin: 0px;
+    -webkit-transition: padding 1s; /* Safari */
+    transition: padding 1s;
+}
+
+.page i{
+margin: auto;
+font-weight: 0;
+font-size: 1rem;
+padding: 4px;
+}
+
+.active{
+    border-radius: .2rem;
+    -webkit-box-shadow: inset 0px 0px 4px 200px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0px 0px 4px 200px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 0px 4px 200px rgba(0, 0, 0, 0.2);
+}
+
+
+.page:hover {
+    background-color: #536088;
+    
+    
+
+}
+
+/* Nav Bar Style Ends */
+
+/* Content Page Style Starts */
+
+.Content {
+    padding: 50px;
+}
+
+.Content-sub {
+    text-align: center;
+}
+
+.Content-sub p {
+    font-size: 20px;
+    margin: 0px;
+    color: #838486;
+}
+
+.Content-sub p span {
+    font-size: 30px;
+    font-variant: small-caps;
+    margin: 0px;
+    color: white;
+}
+
+/* Feature Row Style Starts */
+
+.input{    
+    margin: .5rem;
+    
+}
+
+.inputPicMain{
+    text-align: right;
+}
+
+.inputPic{
+    text-align: right;
+}
+
+.inputPic img {
+    max-height: 60vh;
+}
+
+.inputContentMain{
+    padding: 1rem;
+}
+
+.inputContent{
+    padding: 20px;
+}
+.inputText{
+    font-size: 18px;
+
+}
+.inputText h1{
+    color: #ED5276;
+    font-size: 55px;
+    margin: 0px;
+}
+.inputText h2{
+    margin: 0px;
+    
+}
+
+.feature {    
+    padding: 1rem;
+}
+
+.featureText {
+    /* max-width: 450px; */
+    font-size: 1.1rem;
+    color: white;
+}
+
+.featureText h1{
+    color: #C0D1C7;
+}
+
+.featureText span {
+    inline-size: 0.8rem;
+}
+
+.featurePic {
+    /* max-width: 250px; */
+    text-align: right;
+}
+
+.featurePic img {
+    max-height: 280px;
+}
+
+/* Feature Row Style Ends */
+
+.iconMain {
+    margin: 10px;
+}
+
+.iconSub {
+    margin: 15px;
+}
+
+.iconSub i {
+    color: white;
+    font-size: 2rem;
+    margin-right: 50px;
+}
+
+.iconSub i:hover {
+    color: #ED5276;
+    margin-right: 50px;
+}
+
+
+
+/* Footer page Style Starts */
+
+.footer {
+    background-color: #333745;
+}
+
+.lastLine {
+    text-align: center;
+    margin: .1rem;
+}
+
+.lastLine span {
+    font-size: 0.8em;
+    font-weight: 500;
+    color: #C0D1C7;
+    margin-left: 5px;
+}
+
+/* footer page Style Ends */
